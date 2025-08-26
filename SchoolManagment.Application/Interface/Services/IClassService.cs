@@ -10,6 +10,7 @@ namespace SchoolManagment.Application.Interface.Services
 {
     public interface IClassService
     {
+        //ABC
         Task<IEnumerable<SelectListItem>> GetClassesAsync();
 
     }
